@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IDF 「法曹実務者」 分科会 2021/8/11</title>
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/basic.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/revealjs4/dist/reveal.css" />
+    <link rel="stylesheet" href="_static/mywhite.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    
+
+  </head><body>
+    <div class="reveal">
+        <div class="slides">
+            <aside class="notes">
+Color profiles for Sphinx.</aside>
+<aside class="notes">
+Has to be used with hacks.css (bitbucket.org/lbesson/web-sphinx/src/master/.static/hacks.css)</aside>
+<aside class="notes">
+(c) Lilian Besson, 2011-2016, https://bitbucket.org/lbesson/web-sphinx/</aside>
+<aside class="notes">
+Substitution という</aside>
+<section data-background-image="_images/footer20210201w.png" data-background-position="bottom 10px left 0px" data-background-size="100%">
+<h1>IDF 「法曹実務者」 分科会 2021/8/11</h1>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_images/footer20210201.png"><img alt="_images/footer20210201.png" src="_images/footer20210201.png" style="width: 0.0px; height: 0.0px;" /></a>
+</div>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_images/footer20210201w.png"><img alt="_images/footer20210201w.png" src="_images/footer20210201w.png" style="width: 0.0px; height: 0.0px;" /></a>
+</div>
+</section>
+<section >
+<h2>あんた誰よ ?</h2>
+<ul class="simple">
+<li><p>山本貴司 （1971 年うまれ）</p></li>
+<li><p>東京電機大学 CySec （国際化サイバーセキュリティ学特別コース） 2016 年修了</p>
+<ul>
+<li><p>櫻庭弁護士も講師であり、当時から「法リテラシーと法廷対応」駒を担当</p></li>
+</ul>
+</li>
+<li><p>CISSP（2020/1）、情報処理安全確保支援士</p>
+<ul>
+<li><p>CISSP 自習レシピ <span class="red">OSPN.jp cissp</span> で検索、YouTube で検索すると動画も</p></li>
+</ul>
+</li>
+<li><p>NICT サイバーセキュリティ研究室</p></li>
+<li><p>「サイバー防衛シンポジウム熱海」の実行委員に入れられてしまう</p>
+<ul>
+<li><p>道後、白浜、越後湯沢に続く、温泉セキュリティカンファレンス</p></li>
+<li><p>大会委員長 伊東 寛 元陸自システム防護隊長、現 NICT 主席研究員</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section >
+<h2>サイバー防衛シンポジウム熱海</h2>
+<p>前回開催 2021/3/12 ← COVID-19 でいったん延期されました</p>
+<ul class="simple">
+<li><p>昼の部（オンラインと KKR 熱海）</p>
+<ul>
+<li><p>21世紀の戦争〜クロスドメインからオールドメインへ、そして次に来るもの〜</p></li>
+<li><p>東日本大震災の指揮通信システムとサイバー戦</p></li>
+<li><p>全領域作戦（All Domain Operations）</p></li>
+<li><p>領域横断作戦とエマージング技術について</p></li>
+<li><p>パネルディスカッション サイバー防衛：『序論』</p></li>
+</ul>
+</li>
+<li><p>夜の部（オンラインのみ）</p>
+<ul>
+<li><p>サイバー作戦計画を立案せよ</p></li>
+<li><p>サイバーセキュリティの法と政策FY2020</p></li>
+<li><p>サイバー空間の情勢変化を見据えたサイバー防衛技術</p></li>
+</ul>
+</li>
+</ul>
+<p>次回開催 2021/12 予定（オンラインと KKR 熱海?）</p>
+</section>
+<section >
+<h2>本日のお題（1）</h2>
+<ol class="arabic">
+<li><p>会員が「法曹実務者」分科会や法曹に求めるサービスは何か</p>
+<ul>
+<li><div class="line-block">
+<div class="line">「法曹実務者」分科会に求めるのは、このような視点…</div>
+<div class="line"><strong>「相手と早期に交渉しためランサムウェアの身代金割引に成功して 70% off で万事 OK」、ではなくて、弁護士的思考だと「そもそもそれは払わなくてもよかったものではないか、も、短い時間で判断しなければならない」「払わなくていい準備・方策はなかったのか」が問われる。</strong></div>
+<div class="line">私からは普段気づかないけど「いわれてみれば当然だ」が「法曹実務者」分科会から毎度学ぶことができます。技術系従事者からは「斜め上」</div>
+</div>
+</li>
+</ul>
+</li>
+</ol>
+</section>
+<section >
+<h2>本日のお題（2）</h2>
+<ol class="arabic simple" start="2">
+<li><p>会員と法曹との間の効果的なコラボレーションのあり方</p>
+<ul class="simple">
+<li><p>2021年4月22日の分科会は「技術」分科会かと思えたぐらいで、技術系からも興味を持っていただくことができそうです</p></li>
+<li><p>オンラインの現在、たまに今回のような座談会のような形をとるものいいのかなと思います</p></li>
+<li><p>時間の半分を質疑応答にあてるという現在の進行は講義の復習をその場で行え好感がもてます</p></li>
+<li><p>コロナが落ち着けば実参集もいいかと思います</p></li>
+</ul>
+</li>
+</ol>
+</section>
+<section >
+<h2>本日のお題（3）</h2>
+<ol class="arabic simple" start="3">
+<li><p>ＤＦが関わる法律分野の問題と今後等</p>
+<ul class="simple">
+<li><p>クラウドサービスと「政府情報システムのためのセキュリティ評価制度（ISMAP）」の関連。ISMAPクラウドサービスリストに登録されていないが、使わざるを得ないサービスの扱い、例: github, slack</p></li>
+<li><p>サプライチェーンリスク: 事故例、発注側としては何を注意すればいいのか</p></li>
+<li><p>著作権、GDPR、個人情報保護法、国内法と国外法との関連</p>
+<ul>
+<li><p>2021/7/19 「法務・監査」分科会「媒介者責任の動向」の媒介者責任についての説明は、それぞれの国の指向がよくまとめらており大変興味深かったです</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+</section>
+
+        </div>
+    </div>
+    
+    <script src="_static/revealjs4/dist/reveal.js"></script>
+    
+    
+      
+    
+    <script>
+        var revealjsConfig = new Object();
+        Object.assign(revealjsConfig, 
+{
+    "width": 1366,
+    "height": 768,
+    "lang": "ja",
+    "slideNumber": "c/t",
+    "center": 0,
+    "autoPlayMedia":0,
+}
+);
+        
+        
+        
+          revealjsConfig.plugins = [
+            
+          ];
+        
+        // More info https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize(revealjsConfig);
+    </script>
+
+  </body>
+</html>
